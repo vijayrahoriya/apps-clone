@@ -1,0 +1,99 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 20px;
+    position: sticky;
+    height: 60px;
+    top:0;
+    z-index: 100;
+    background: #fff;
+}
+
+.header__left{
+    display: flex;
+    align-items: center;
+}
+
+.header__logo{
+    margin-left: 20px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    gap:2px;
+    color: #333;
+    font-family: 'Poppins',sans-serif;
+}
+
+.batch{
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    font-size: .7rem;
+    color: #888;
+    font-weight: 400;
+}
+
+.header__left a{
+    text-decoration: none;
+}
+
+.header__logo .icon{
+    font-size: 1.9rem;
+}
+
+.header__input{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 1px solid lightgray;
+    padding: 0 10px;
+    border-radius: 50px;
+    position: relative;
+}
+
+.header__input > input{
+    flex: 1;
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    padding: 10px 0;
+    background: none;
+    border-right: 1px solid lightgray;
+}
+
+.header__inputButton{
+    width: 50px !important;
+    background: #fafafa;
+    color: gray;
+}
+
+.header__icons{
+    position: relative;
+}
+
+.header__icon{
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.batch2{
+    right: 28%;
+    background: rgb(219, 41, 41);
+    color: #fff;
+    padding: 1px 5px;
+    font-size: .8rem;
+    top: -8px;
+    border-radius: 50px;
+}
+
+.header__icon:hover{
+    color: red;
+}
+
+.voice{
+    position: absolute;
+    right: -40px;
+    cursor: pointer;
+}

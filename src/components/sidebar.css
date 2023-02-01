@@ -1,0 +1,50 @@
+.sidebar-box{
+    flex: .2;
+    height: calc(100vh - 80px);
+    overflow-y: scroll;
+    position: sticky;
+    top: 80px;
+}
+
+.sidebar-box::-webkit-scrollbar{
+    appearance: none;
+    width: 10px;
+    display: none;
+    transition: all .3s;
+}
+
+.sidebar-box::-webkit-scrollbar-thumb{
+    background: gray;
+    border-radius: 50px;
+}
+
+.sidebar-box:hover::-webkit-scrollbar{
+    display: inline;
+}
+
+.sidebar > hr{
+    border: none;
+    background: lightgray;
+    height: 1px;
+    margin: 10px 0;
+}
+
+.sidebar > h5{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #606060;;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.sidebar p{
+    color: #555;
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.sidebar p.copyright{
+    color: #9999;
+}
